@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  height: 100%;
+} 
+
+@layer utilities {
+  .container-padding{
+    @apply py-5  md:py-10 md:px-40 
+}
+
+}
